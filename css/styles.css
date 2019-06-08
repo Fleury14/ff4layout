@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+.stream-canvas {
+    width: 1920px;
+    height: 1080px;
+    background-color: #000000;
+    display: flex;
+}
+
+.game-box {
+    background-color: #000066;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1226px;
+    height: 1073px;
+    color: #fff;
+}
