@@ -1,3 +1,12 @@
+/* COLOR SCHEME
+    000066-BLUE
+    336600-GREEN
+    663300-BROWN
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Bungee|Press+Start+2P|Raleway&display=swap');
+
 body {
     margin: 0;
 }
@@ -10,11 +19,31 @@ body {
 }
 
 .game-box {
-    background-color: #000066;
+    background-color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1226px;
     height: 1073px;
     color: #fff;
+}
+
+.sidebar {
+    height: 1080px;
+    width: calc(1920px - 1226px);
+    background-color: #000066;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-plate {
+    background-color: #336600;
+    width: 80%;
+    margin-left: 10%;
+    color: #eee;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 48px;
+    margin-top: 50px;
+    text-shadow: 5px 5px 10px #663300;
 }
