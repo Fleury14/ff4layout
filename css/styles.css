@@ -41,6 +41,7 @@ body {
     background: radial-gradient(#663300, #774411);
     width: 80%;
     margin-left: 10%;
+    height: 100px;
     color: #eee;
     text-align: center;
     font-family: 'Bungee', cursive;
@@ -48,12 +49,25 @@ body {
     margin-top: 50px;
     text-shadow: 5px 5px 10px #663300;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .tracker {
     border: 20px ridge #336600;
-    height: 500px;
+    height: 290px;
     width: 80%;
     margin-left: calc(10% - 20px);
-    background: radial-gradient(#000000, #000033)
+    background: radial-gradient(#000000, #000033);
+    margin-bottom: 50px;
+}
+
+.flag-space {
+    border: 20px ridge #336600;
+    width: 70%;
+    margin-left: calc(15% - 20px);
+    height: 200px;
+    background: radial-gradient(#000000, #000033);
 }
