@@ -14,7 +14,7 @@ class GameTimer {
         let secDisplay = "";
         if (this.mins < 10) {
             minDisplay = "0" + this.mins.toString();
-        } else this.minDisplay = this.mins.toString();
+        } else minDisplay = this.mins.toString();
         if (this.secs < 10) {
             secDisplay = "0" + this.secs.toString();
         } else secDisplay = this.secs.toString();

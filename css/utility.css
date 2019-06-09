@@ -10,8 +10,10 @@
 
 #currentTime {
     font-family: 'Bungee', cursive;
-    font-size: 32px;
+    font-size: 64px;
     margin-top: 0;
+    position: relative;
+    bottom: 40px;
 }
 
 .time p {
@@ -19,7 +21,11 @@
 }
 
 body {
-    background-color: #000033;
+    background-color: #000000;
     color: #fff;
     font-family: 'Raleway', sans-serif;
+}
+
+main {
+    background: radial-gradient(#000000, #000033)
 }
