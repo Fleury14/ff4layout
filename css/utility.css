@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Press+Start+2P|Raleway&display=swap');
+
+.pad-status, .game-status {
+    display: flex;
+}
+
+#padStatus, #gameStatus {
+    margin-left: 20px;
+}
+
+#currentTime {
+    font-family: 'Bungee', cursive;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.time p {
+    margin: 0;
+}
+
+body {
+    background-color: #000033;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
