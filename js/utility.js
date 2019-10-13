@@ -49,7 +49,7 @@ function readButtons() {
     setInterval(() => {
         const pad = navigator.getGamepads();
         buttons = pad[0].buttons;
-        if (buttons[menuButton].pressed) {
+        if (buttons && buttons[menuButton].pressed) {
             buttonDown = true;
         } else {
             if (buttonDown) {

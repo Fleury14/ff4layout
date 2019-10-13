@@ -32,13 +32,13 @@ body {
     height: 1080px;
     width: calc(1920px - 1226px);
     /* background-color: #000066; */
-    background: radial-gradient(farthest-corner at 500px 700px, #0000bb, #000066);
+    background: radial-gradient(farthest-corner at 500px 700px, #bd0303, #780101);
     display: flex;
     flex-direction: column;
 }
 
 .name-plate {
-    background: radial-gradient(#663300, #774411);
+    background: radial-gradient(#010101, #090909);
     width: 80%;
     margin-left: 10%;
     height: 100px;
@@ -47,7 +47,7 @@ body {
     font-family: 'Bungee', cursive;
     font-size: 48px;
     margin-top: 50px;
-    text-shadow: 5px 5px 10px #663300;
+    text-shadow: 5px 5px 10px #bd0303;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
@@ -56,18 +56,20 @@ body {
 }
 
 .tracker {
-    border: 20px ridge #336600;
+    border: 20px ridge #442222;
     height: 290px;
     width: 80%;
     margin-left: calc(10% - 20px);
-    background: radial-gradient(#000000, #000033);
+    /* background: radial-gradient(#000000, #000033); */
+    background: #000000;
     margin-bottom: 50px;
 }
 
 .flag-space {
-    border: 20px ridge #336600;
+    border: 20px ridge #442222;
     width: 70%;
     margin-left: calc(15% - 20px);
     height: 200px;
-    background: radial-gradient(#000000, #000033);
+    /* background: radial-gradient(#000000, #000033); */
+    background: #000000;
 }
